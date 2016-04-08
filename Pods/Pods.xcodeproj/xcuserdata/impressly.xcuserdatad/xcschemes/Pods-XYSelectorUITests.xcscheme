@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3367FCCEA18508531C504C71'
-               BlueprintName = 'SDWebImage'
+               BlueprintIdentifier = '3B351D8BB17C900DA10B860087F59D34'
+               BlueprintName = 'Pods-XYSelectorUITests'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSDWebImage.a'>
+               BuildableName = 'libPods-XYSelectorUITests.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

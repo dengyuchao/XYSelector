@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		507260F0315CB50D4AD7BB8A /* libPods-XYSelector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */; };
+		2300B2C7BCA4076DB1E896F3 /* libPods-XYSelectorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9535C6B02312B4D66D8A7F90 /* libPods-XYSelectorUITests.a */; };
 		54EB32C21CB687950047E574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32C11CB687950047E574 /* AppDelegate.swift */; };
 		54EB32C41CB687950047E574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32C31CB687950047E574 /* ViewController.swift */; };
 		54EB32C71CB687950047E574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EB32C51CB687950047E574 /* Main.storyboard */; };
@@ -23,6 +23,8 @@
 		54EB32FD1CB6FB2F0047E574 /* XYTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32FC1CB6FB2F0047E574 /* XYTableViewHeaderView.swift */; };
 		54EB33031CB7070A0047E574 /* XYTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EB33021CB7070A0047E574 /* XYTableViewHeaderView.xib */; };
 		54EB33051CB7733F0047E574 /* XYSectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB33041CB7733F0047E574 /* XYSectorModel.swift */; };
+		B14B63E126F8CA00A3B86E66 /* libPods-XYSelectorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BDDF80CBB96648D213FAB /* libPods-XYSelectorTests.a */; };
+		C373EAF24E754305E98CC5D3 /* libPods-XYSelector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AD19F0DA4CB4D99E47C360 /* libPods-XYSelector.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.release.xcconfig"; sourceTree = "<group>"; };
+		493BDDF80CBB96648D213FAB /* libPods-XYSelectorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYSelectorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD2DA13E7A270912DAF61A8 /* Pods-XYSelectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelectorUITests/Pods-XYSelectorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		54EB32BE1CB687950047E574 /* XYSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EB32C11CB687950047E574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54EB32C31CB687950047E574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,8 +69,13 @@
 		54EB32FC1CB6FB2F0047E574 /* XYTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTableViewHeaderView.swift; sourceTree = "<group>"; };
 		54EB33021CB7070A0047E574 /* XYTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYTableViewHeaderView.xib; sourceTree = "<group>"; };
 		54EB33041CB7733F0047E574 /* XYSectorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYSectorModel.swift; sourceTree = "<group>"; };
-		853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.debug.xcconfig"; sourceTree = "<group>"; };
-		A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYSelector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CD1F150FAACFBD191F0686 /* Pods-XYSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.debug.xcconfig"; sourceTree = "<group>"; };
+		731E84BD7ABC89B17E130F1E /* Pods-XYSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.release.xcconfig"; sourceTree = "<group>"; };
+		9535C6B02312B4D66D8A7F90 /* libPods-XYSelectorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYSelectorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05E4B6FFDD837551E6AE44E /* Pods-XYSelectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelectorTests/Pods-XYSelectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		A792BC7BA0B11784596D22EE /* Pods-XYSelectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelectorTests/Pods-XYSelectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AD19F0DA4CB4D99E47C360 /* libPods-XYSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYSelector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C1AF6BCB799BC5CD4F1A55 /* Pods-XYSelectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelectorUITests/Pods-XYSelectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507260F0315CB50D4AD7BB8A /* libPods-XYSelector.a in Frameworks */,
+				C373EAF24E754305E98CC5D3 /* libPods-XYSelector.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14B63E126F8CA00A3B86E66 /* libPods-XYSelectorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +99,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2300B2C7BCA4076DB1E896F3 /* libPods-XYSelectorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06EBD0AA99BE5B6F327DF2AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72CD1F150FAACFBD191F0686 /* Pods-XYSelector.debug.xcconfig */,
+				731E84BD7ABC89B17E130F1E /* Pods-XYSelector.release.xcconfig */,
+				A792BC7BA0B11784596D22EE /* Pods-XYSelectorTests.debug.xcconfig */,
+				A05E4B6FFDD837551E6AE44E /* Pods-XYSelectorTests.release.xcconfig */,
+				F5C1AF6BCB799BC5CD4F1A55 /* Pods-XYSelectorUITests.debug.xcconfig */,
+				4DD2DA13E7A270912DAF61A8 /* Pods-XYSelectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51BEE7F9194AA26423F301F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD19F0DA4CB4D99E47C360 /* libPods-XYSelector.a */,
+				493BDDF80CBB96648D213FAB /* libPods-XYSelectorTests.a */,
+				9535C6B02312B4D66D8A7F90 /* libPods-XYSelectorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54EB32B51CB687950047E574 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +136,8 @@
 				54EB32D51CB687950047E574 /* XYSelectorTests */,
 				54EB32E01CB687950047E574 /* XYSelectorUITests */,
 				54EB32BF1CB687950047E574 /* Products */,
-				FB9EDA3A182BDE2028A22638 /* Pods */,
-				DE6BC233D9047854BBB1C436 /* Frameworks */,
+				06EBD0AA99BE5B6F327DF2AC /* Pods */,
+				51BEE7F9194AA26423F301F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,23 +199,6 @@
 			path = XYSelectorFile;
 			sourceTree = "<group>";
 		};
-		DE6BC233D9047854BBB1C436 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB9EDA3A182BDE2028A22638 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */,
-				14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EB32E61CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelector" */;
 			buildPhases = (
-				AABE373708FD7D710A99CF33 /* Check Pods Manifest.lock */,
+				C6500E02067D56100557D03F /* 📦 Check Pods Manifest.lock */,
 				54EB32BA1CB687950047E574 /* Sources */,
 				54EB32BB1CB687950047E574 /* Frameworks */,
 				54EB32BC1CB687950047E574 /* Resources */,
-				03D4204156D7E2DFE4D39121 /* Embed Pods Frameworks */,
-				F1350B05D2CB79DEF4B22BAE /* Copy Pods Resources */,
+				2D85512AF3B79E10F3DDD858 /* 📦 Embed Pods Frameworks */,
+				C4328493DBBE9DC2572F5D7D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EB32E91CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorTests" */;
 			buildPhases = (
+				B2E716EACA63088C729247DE /* 📦 Check Pods Manifest.lock */,
 				54EB32CE1CB687950047E574 /* Sources */,
 				54EB32CF1CB687950047E574 /* Frameworks */,
 				54EB32D01CB687950047E574 /* Resources */,
+				BA78606F257EC0449D5F9935 /* 📦 Embed Pods Frameworks */,
+				05C697C8D8C0B181B39857B3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54EB32EC1CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorUITests" */;
 			buildPhases = (
+				25CEE4ED66FC793C1E89B632 /* 📦 Check Pods Manifest.lock */,
 				54EB32D91CB687950047E574 /* Sources */,
 				54EB32DA1CB687950047E574 /* Frameworks */,
 				54EB32DB1CB687950047E574 /* Resources */,
+				C78702D10B144209805A4B86 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,7 +275,7 @@
 				TargetAttributes = {
 					54EB32BD1CB687950047E574 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9WDHB8MG27;
+						DevelopmentTeam = ZUHYDF6KZU;
 					};
 					54EB32D11CB687950047E574 = {
 						CreatedOnToolsVersion = 7.3;
@@ -317,29 +338,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03D4204156D7E2DFE4D39121 /* Embed Pods Frameworks */ = {
+		05C697C8D8C0B181B39857B3 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelectorTests/Pods-XYSelectorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AABE373708FD7D710A99CF33 /* Check Pods Manifest.lock */ = {
+		25CEE4ED66FC793C1E89B632 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,19 +368,94 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F1350B05D2CB79DEF4B22BAE /* Copy Pods Resources */ = {
+		2D85512AF3B79E10F3DDD858 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E716EACA63088C729247DE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA78606F257EC0449D5F9935 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelectorTests/Pods-XYSelectorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4328493DBBE9DC2572F5D7D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6500E02067D56100557D03F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C78702D10B144209805A4B86 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelectorUITests/Pods-XYSelectorUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -517,32 +613,39 @@
 		};
 		54EB32E71CB687950047E574 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */;
+			baseConfigurationReference = 72CD1F150FAACFBD191F0686 /* Pods-XYSelector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XYSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.XYSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "XYSelector/XYSelector-Bridging-Heade.h";
 			};
 			name = Debug;
 		};
 		54EB32E81CB687950047E574 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */;
+			baseConfigurationReference = 731E84BD7ABC89B17E130F1E /* Pods-XYSelector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XYSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.XYSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "XYSelector/XYSelector-Bridging-Heade.h";
 			};
 			name = Release;
 		};
 		54EB32EA1CB687950047E574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A792BC7BA0B11784596D22EE /* Pods-XYSelectorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XYSelectorTests/Info.plist;
@@ -555,6 +658,7 @@
 		};
 		54EB32EB1CB687950047E574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05E4B6FFDD837551E6AE44E /* Pods-XYSelectorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XYSelectorTests/Info.plist;
@@ -567,6 +671,7 @@
 		};
 		54EB32ED1CB687950047E574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C1AF6BCB799BC5CD4F1A55 /* Pods-XYSelectorUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XYSelectorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -578,6 +683,7 @@
 		};
 		54EB32EE1CB687950047E574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD2DA13E7A270912DAF61A8 /* Pods-XYSelectorUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XYSelectorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
