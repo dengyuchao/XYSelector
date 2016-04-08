@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		507260F0315CB50D4AD7BB8A /* libPods-XYSelector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */; };
+		54EB32C21CB687950047E574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32C11CB687950047E574 /* AppDelegate.swift */; };
+		54EB32C41CB687950047E574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32C31CB687950047E574 /* ViewController.swift */; };
+		54EB32C71CB687950047E574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EB32C51CB687950047E574 /* Main.storyboard */; };
+		54EB32C91CB687950047E574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EB32C81CB687950047E574 /* Assets.xcassets */; };
+		54EB32CC1CB687950047E574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EB32CA1CB687950047E574 /* LaunchScreen.storyboard */; };
+		54EB32D71CB687950047E574 /* XYSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32D61CB687950047E574 /* XYSelectorTests.swift */; };
+		54EB32E21CB687950047E574 /* XYSelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32E11CB687950047E574 /* XYSelectorUITests.swift */; };
+		54EB32F31CB68D9A0047E574 /* XYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32F21CB68D9A0047E574 /* XYTableViewController.swift */; };
+		54EB32F51CB68DA80047E574 /* XYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32F41CB68DA80047E574 /* XYTableViewCell.swift */; };
+		54EB32F71CB68E8A0047E574 /* XYColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32F61CB68E8A0047E574 /* XYColorExtension.swift */; };
+		54EB32F91CB68FE30047E574 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32F81CB68FE30047E574 /* NavigationController.swift */; };
+		54EB32FB1CB696930047E574 /* SampleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32FA1CB696930047E574 /* SampleDataSource.swift */; };
+		54EB32FD1CB6FB2F0047E574 /* XYTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB32FC1CB6FB2F0047E574 /* XYTableViewHeaderView.swift */; };
+		54EB33031CB7070A0047E574 /* XYTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EB33021CB7070A0047E574 /* XYTableViewHeaderView.xib */; };
+		54EB33051CB7733F0047E574 /* XYSectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB33041CB7733F0047E574 /* XYSectorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54EB32D31CB687950047E574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54EB32B61CB687950047E574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54EB32BD1CB687950047E574;
+			remoteInfo = XYSelector;
+		};
+		54EB32DE1CB687950047E574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54EB32B61CB687950047E574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54EB32BD1CB687950047E574;
+			remoteInfo = XYSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.release.xcconfig"; sourceTree = "<group>"; };
+		54EB32BE1CB687950047E574 /* XYSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EB32C11CB687950047E574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54EB32C31CB687950047E574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54EB32C61CB687950047E574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EB32C81CB687950047E574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EB32CB1CB687950047E574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54EB32CD1CB687950047E574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EB32D21CB687950047E574 /* XYSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EB32D61CB687950047E574 /* XYSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSelectorTests.swift; sourceTree = "<group>"; };
+		54EB32D81CB687950047E574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EB32DD1CB687950047E574 /* XYSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EB32E11CB687950047E574 /* XYSelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSelectorUITests.swift; sourceTree = "<group>"; };
+		54EB32E31CB687950047E574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EB32EF1CB68A820047E574 /* XYSelector-Bridging-Heade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYSelector-Bridging-Heade.h"; sourceTree = "<group>"; };
+		54EB32F21CB68D9A0047E574 /* XYTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTableViewController.swift; sourceTree = "<group>"; };
+		54EB32F41CB68DA80047E574 /* XYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTableViewCell.swift; sourceTree = "<group>"; };
+		54EB32F61CB68E8A0047E574 /* XYColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYColorExtension.swift; sourceTree = "<group>"; };
+		54EB32F81CB68FE30047E574 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		54EB32FA1CB696930047E574 /* SampleDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataSource.swift; sourceTree = "<group>"; };
+		54EB32FC1CB6FB2F0047E574 /* XYTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTableViewHeaderView.swift; sourceTree = "<group>"; };
+		54EB33021CB7070A0047E574 /* XYTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYTableViewHeaderView.xib; sourceTree = "<group>"; };
+		54EB33041CB7733F0047E574 /* XYSectorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYSectorModel.swift; sourceTree = "<group>"; };
+		853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYSelector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector.debug.xcconfig"; sourceTree = "<group>"; };
+		A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYSelector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EB32BB1CB687950047E574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507260F0315CB50D4AD7BB8A /* libPods-XYSelector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32CF1CB687950047E574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32DA1CB687950047E574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EB32B51CB687950047E574 = {
+			isa = PBXGroup;
+			children = (
+				54EB32C01CB687950047E574 /* XYSelector */,
+				54EB32D51CB687950047E574 /* XYSelectorTests */,
+				54EB32E01CB687950047E574 /* XYSelectorUITests */,
+				54EB32BF1CB687950047E574 /* Products */,
+				FB9EDA3A182BDE2028A22638 /* Pods */,
+				DE6BC233D9047854BBB1C436 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54EB32BF1CB687950047E574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EB32BE1CB687950047E574 /* XYSelector.app */,
+				54EB32D21CB687950047E574 /* XYSelectorTests.xctest */,
+				54EB32DD1CB687950047E574 /* XYSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EB32C01CB687950047E574 /* XYSelector */ = {
+			isa = PBXGroup;
+			children = (
+				54EB32F11CB68D720047E574 /* XYSelectorFile */,
+				54EB32C11CB687950047E574 /* AppDelegate.swift */,
+				54EB32F81CB68FE30047E574 /* NavigationController.swift */,
+				54EB32C31CB687950047E574 /* ViewController.swift */,
+				54EB32FA1CB696930047E574 /* SampleDataSource.swift */,
+				54EB32C51CB687950047E574 /* Main.storyboard */,
+				54EB32C81CB687950047E574 /* Assets.xcassets */,
+				54EB32CA1CB687950047E574 /* LaunchScreen.storyboard */,
+				54EB32CD1CB687950047E574 /* Info.plist */,
+				54EB32EF1CB68A820047E574 /* XYSelector-Bridging-Heade.h */,
+			);
+			path = XYSelector;
+			sourceTree = "<group>";
+		};
+		54EB32D51CB687950047E574 /* XYSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				54EB32D61CB687950047E574 /* XYSelectorTests.swift */,
+				54EB32D81CB687950047E574 /* Info.plist */,
+			);
+			path = XYSelectorTests;
+			sourceTree = "<group>";
+		};
+		54EB32E01CB687950047E574 /* XYSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54EB32E11CB687950047E574 /* XYSelectorUITests.swift */,
+				54EB32E31CB687950047E574 /* Info.plist */,
+			);
+			path = XYSelectorUITests;
+			sourceTree = "<group>";
+		};
+		54EB32F11CB68D720047E574 /* XYSelectorFile */ = {
+			isa = PBXGroup;
+			children = (
+				54EB32F21CB68D9A0047E574 /* XYTableViewController.swift */,
+				54EB32F41CB68DA80047E574 /* XYTableViewCell.swift */,
+				54EB32F61CB68E8A0047E574 /* XYColorExtension.swift */,
+				54EB33041CB7733F0047E574 /* XYSectorModel.swift */,
+				54EB32FC1CB6FB2F0047E574 /* XYTableViewHeaderView.swift */,
+				54EB33021CB7070A0047E574 /* XYTableViewHeaderView.xib */,
+			);
+			path = XYSelectorFile;
+			sourceTree = "<group>";
+		};
+		DE6BC233D9047854BBB1C436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A138C9911E090AB811D0AC4C /* libPods-XYSelector.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9EDA3A182BDE2028A22638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */,
+				14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EB32BD1CB687950047E574 /* XYSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EB32E61CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelector" */;
+			buildPhases = (
+				AABE373708FD7D710A99CF33 /* Check Pods Manifest.lock */,
+				54EB32BA1CB687950047E574 /* Sources */,
+				54EB32BB1CB687950047E574 /* Frameworks */,
+				54EB32BC1CB687950047E574 /* Resources */,
+				03D4204156D7E2DFE4D39121 /* Embed Pods Frameworks */,
+				F1350B05D2CB79DEF4B22BAE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYSelector;
+			productName = XYSelector;
+			productReference = 54EB32BE1CB687950047E574 /* XYSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54EB32D11CB687950047E574 /* XYSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EB32E91CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorTests" */;
+			buildPhases = (
+				54EB32CE1CB687950047E574 /* Sources */,
+				54EB32CF1CB687950047E574 /* Frameworks */,
+				54EB32D01CB687950047E574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54EB32D41CB687950047E574 /* PBXTargetDependency */,
+			);
+			name = XYSelectorTests;
+			productName = XYSelectorTests;
+			productReference = 54EB32D21CB687950047E574 /* XYSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54EB32DC1CB687950047E574 /* XYSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EB32EC1CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorUITests" */;
+			buildPhases = (
+				54EB32D91CB687950047E574 /* Sources */,
+				54EB32DA1CB687950047E574 /* Frameworks */,
+				54EB32DB1CB687950047E574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54EB32DF1CB687950047E574 /* PBXTargetDependency */,
+			);
+			name = XYSelectorUITests;
+			productName = XYSelectorUITests;
+			productReference = 54EB32DD1CB687950047E574 /* XYSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EB32B61CB687950047E574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dengyuchao;
+				TargetAttributes = {
+					54EB32BD1CB687950047E574 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9WDHB8MG27;
+					};
+					54EB32D11CB687950047E574 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9WDHB8MG27;
+						TestTargetID = 54EB32BD1CB687950047E574;
+					};
+					54EB32DC1CB687950047E574 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9WDHB8MG27;
+						TestTargetID = 54EB32BD1CB687950047E574;
+					};
+				};
+			};
+			buildConfigurationList = 54EB32B91CB687950047E574 /* Build configuration list for PBXProject "XYSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54EB32B51CB687950047E574;
+			productRefGroup = 54EB32BF1CB687950047E574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EB32BD1CB687950047E574 /* XYSelector */,
+				54EB32D11CB687950047E574 /* XYSelectorTests */,
+				54EB32DC1CB687950047E574 /* XYSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EB32BC1CB687950047E574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EB32CC1CB687950047E574 /* LaunchScreen.storyboard in Resources */,
+				54EB32C91CB687950047E574 /* Assets.xcassets in Resources */,
+				54EB33031CB7070A0047E574 /* XYTableViewHeaderView.xib in Resources */,
+				54EB32C71CB687950047E574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32D01CB687950047E574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32DB1CB687950047E574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D4204156D7E2DFE4D39121 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABE373708FD7D710A99CF33 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1350B05D2CB79DEF4B22BAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYSelector/Pods-XYSelector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EB32BA1CB687950047E574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EB32F51CB68DA80047E574 /* XYTableViewCell.swift in Sources */,
+				54EB32F91CB68FE30047E574 /* NavigationController.swift in Sources */,
+				54EB32F71CB68E8A0047E574 /* XYColorExtension.swift in Sources */,
+				54EB32F31CB68D9A0047E574 /* XYTableViewController.swift in Sources */,
+				54EB33051CB7733F0047E574 /* XYSectorModel.swift in Sources */,
+				54EB32C41CB687950047E574 /* ViewController.swift in Sources */,
+				54EB32FB1CB696930047E574 /* SampleDataSource.swift in Sources */,
+				54EB32FD1CB6FB2F0047E574 /* XYTableViewHeaderView.swift in Sources */,
+				54EB32C21CB687950047E574 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32CE1CB687950047E574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EB32D71CB687950047E574 /* XYSelectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EB32D91CB687950047E574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EB32E21CB687950047E574 /* XYSelectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54EB32D41CB687950047E574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54EB32BD1CB687950047E574 /* XYSelector */;
+			targetProxy = 54EB32D31CB687950047E574 /* PBXContainerItemProxy */;
+		};
+		54EB32DF1CB687950047E574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54EB32BD1CB687950047E574 /* XYSelector */;
+			targetProxy = 54EB32DE1CB687950047E574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54EB32C51CB687950047E574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EB32C61CB687950047E574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54EB32CA1CB687950047E574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EB32CB1CB687950047E574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54EB32E41CB687950047E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54EB32E51CB687950047E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54EB32E71CB687950047E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853713C938C6C463E4920E24 /* Pods-XYSelector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XYSelector/XYSelector-Bridging-Heade.h";
+			};
+			name = Debug;
+		};
+		54EB32E81CB687950047E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D848C0C6D310B2465C1764 /* Pods-XYSelector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XYSelector/XYSelector-Bridging-Heade.h";
+			};
+			name = Release;
+		};
+		54EB32EA1CB687950047E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYSelector.app/XYSelector";
+			};
+			name = Debug;
+		};
+		54EB32EB1CB687950047E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYSelector.app/XYSelector";
+			};
+			name = Release;
+		};
+		54EB32ED1CB687950047E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYSelector;
+			};
+			name = Debug;
+		};
+		54EB32EE1CB687950047E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EB32B91CB687950047E574 /* Build configuration list for PBXProject "XYSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EB32E41CB687950047E574 /* Debug */,
+				54EB32E51CB687950047E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EB32E61CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EB32E71CB687950047E574 /* Debug */,
+				54EB32E81CB687950047E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EB32E91CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EB32EA1CB687950047E574 /* Debug */,
+				54EB32EB1CB687950047E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EB32EC1CB687950047E574 /* Build configuration list for PBXNativeTarget "XYSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EB32ED1CB687950047E574 /* Debug */,
+				54EB32EE1CB687950047E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EB32B61CB687950047E574 /* Project object */;
+}
